@@ -6,7 +6,7 @@ Version:	1.01
 Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
-Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/Memoize/Memoize-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Memoize/Memoize-%{version}.tar.gz
 BuildRequires:	perl >= 5.005_03-10
 BuildRequires:	perl-Storable
 BuildRequires:	rpm-perlprov

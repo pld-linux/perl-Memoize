@@ -2,8 +2,8 @@
 Summary:	Memoize perl module
 Summary(pl):	Modu³ perla Memoize
 Name:		perl-Memoize
-Version:	0.62
-Release:	2
+Version:	0.65
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
@@ -38,9 +38,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc *.gz *.html
 %{perl_sitelib}/Memoize.pm
 %{perl_sitelib}/Memoize
-%{perl_sitelib}/demo.pl
-%{perl_sitelib}/demo2.pl
 %{_mandir}/man3/*

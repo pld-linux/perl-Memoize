@@ -4,10 +4,10 @@ Summary(pl):	Modu³ perla Memoize
 Name:		perl-Memoize
 Version:	0.52
 Release:	1
-Copyright:	GPL
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Memoize/Memoize-%{version}.tar.gz
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Memoize/Memoize-%{version}.tar.gz
 BuildRequires:	perl >= 5.005_03-10
 %requires_eq	perl
 Requires:	%{perl_sitearch}
@@ -17,7 +17,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Memoize - makes your functions faster by trading space for time.
 
 %description -l pl
-Memoize - umo¿liwia przyspieszenie wykonywania funkcji kosztem przestrzeni.
+Memoize - umo¿liwia przyspieszenie wykonywania funkcji kosztem
+przestrzeni.
 
 %prep
 %setup -q -n Memoize-%{version}

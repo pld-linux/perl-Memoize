@@ -7,7 +7,7 @@ Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Memoize/Memoize-%{version}.tar.gz
-BuildRequires:	perl >= 5.005_03-10
+BuildRequires:	perl-devel >= 5.005_03-10
 BuildRequires:	perl-Storable
 BuildRequires:	rpm-perlprov
 BuildArch:	noarch

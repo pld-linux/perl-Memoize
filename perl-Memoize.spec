@@ -2,7 +2,7 @@
 Summary:	Memoize perl module
 Summary(pl):	Modu³ perla Memoize
 Name:		perl-Memoize
-Version:	1.00
+Version:	1.01
 Release:	1
 License:	GPL
 Group:		Development/Languages/Perl

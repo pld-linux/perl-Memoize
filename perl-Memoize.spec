@@ -6,7 +6,7 @@ Version:	0.66
 Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
-Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Memoize/Memoize-%{version}.tar.gz
+Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/Memoize/Memoize-%{version}.tar.gz
 BuildRequires:	perl >= 5.005_03-10
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)

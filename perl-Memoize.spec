@@ -24,7 +24,7 @@ przestrzeni.
 %setup -q -n Memoize-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %install

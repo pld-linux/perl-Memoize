@@ -4,7 +4,7 @@
 #
 %include	/usr/lib/rpm/macros.perl
 Summary:	Memoize perl module
-Summary(pl):	Modu³ perla Memoize
+Summary(pl):	Modu³ Perla Memoize
 Name:		perl-Memoize
 Version:	1.01
 Release:	5

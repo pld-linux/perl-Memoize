@@ -8,6 +8,7 @@ License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/Memoize/Memoize-%{version}.tar.gz
 BuildRequires:	perl >= 5.005_03-10
+BuildRequires:	rpm-perlprov
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -30,14 +31,12 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install DESTDIR=$RPM_BUILD_ROOT
 
-gzip -9nf README TODO
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz *.html
+%doc README TODO *.html
 %{perl_sitelib}/Memoize.pm
 %{perl_sitelib}/Memoize
 %{_mandir}/man3/*

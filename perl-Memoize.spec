@@ -3,7 +3,7 @@ Summary:	Memoize perl module
 Summary(pl):	Modu³ perla Memoize
 Name:		perl-Memoize
 Version:	1.01
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Memoize/Memoize-%{version}.tar.gz
@@ -24,7 +24,8 @@ przestrzeni.
 %setup -q -n Memoize-%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 
 %install
@@ -38,6 +39,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc README TODO *.html
-%{perl_sitelib}/Memoize.pm
-%{perl_sitelib}/Memoize
+%{perl_vendorlib}/Memoize.pm
+%{perl_vendorlib}/Memoize
 %{_mandir}/man3/*

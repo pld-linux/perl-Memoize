@@ -7,7 +7,7 @@ Summary:	Memoize perl module
 Summary(pl):	Modu³ perla Memoize
 Name:		perl-Memoize
 Version:	1.01
-Release:	4
+Release:	5
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -17,6 +17,8 @@ BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+
+%define	_noautoreq	'perl(NDBM_File)'
 
 %description
 Memoize - makes your functions faster by trading space for time.

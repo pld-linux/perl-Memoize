@@ -4,7 +4,7 @@
 #
 %include	/usr/lib/rpm/macros.perl
 Summary:	Memoize perl module
-Summary(pl):	Modu≥ Perla Memoize
+Summary(pl.UTF-8):   Modu≈Ç Perla Memoize
 Name:		perl-Memoize
 Version:	1.01
 Release:	5
@@ -23,8 +23,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Memoize - makes your functions faster by trading space for time.
 
-%description -l pl
-Memoize - umoøliwia przyspieszenie wykonywania funkcji kosztem
+%description -l pl.UTF-8
+Memoize - umo≈ºliwia przyspieszenie wykonywania funkcji kosztem
 przestrzeni.
 
 %prep

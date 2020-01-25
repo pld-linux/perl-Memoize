@@ -3,7 +3,6 @@
 %bcond_with	tests	# perform "make test"
 
 %define		pdir	Memoize
-%include	/usr/lib/rpm/macros.perl
 Summary:	Memoize perl module
 Summary(pl.UTF-8):	Moduł Perla Memoize
 Name:		perl-Memoize
